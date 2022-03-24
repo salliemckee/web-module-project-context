@@ -1,19 +1,3 @@
-import React, { createContext } from "react";
-
-// const stuff = {
-//   cart: [],
-//   products: [],
-//   addItem: () => {
-//     console.log("test");
-//   },
-// };
+import { createContext } from "react";
 
 export const ProductContext = createContext();
-
-// export default function ProductProvider(props) {
-//   return (
-//     <ProductContext.Provider value={stuff}>
-//       {props.children}
-//     </ProductContext.Provider>
-//   );
-// }
